@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>prova invio server</title>
+<script type="application/javascript" src="prova.js"></script>
+</head>
+<body>
+	<form action="http://talos.itisgubbio.local/edoardo/triangolo.php" onsubmit="return ciao()">
+		<p>
+			Lato 1<input type="text" name="l1" id="lato1">
+		</p>
+		<p>
+			Lato 2<input type="text" name="l2" id="lato2">
+		</p>
+		<p>
+			Lato 3<input type="text" name="l3" id="lato3">
+		</p>
+		<button onclick="ciao()"> Invia </button>
+	</form>
+</body>
+</html>
